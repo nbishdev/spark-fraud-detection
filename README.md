@@ -30,3 +30,20 @@ For all the experiments, we used the [[Real or Fake] : Fake Job Description Pred
     ```console
     spark-shell
     ```
+
+### Script execution
+
+The dataset must be present in some directory in the file system.
+
+While in the Spark shell, use the following commands to execute the scala script.
+```console
+:load /absolute/path/to/your/file/SimpleStatistics.scala
+SimpleStatistics.main(Array("/absolute/path/to/the/dataset/fake_job_postings.csv"))
+```
+
+The output of the script contains:
+* The number of lines in the dataset
+* The number of fake job postings in the dataset
+* The number of real job postings in the dataset
+* The top-10 most required education in fake job postings in the dataset
+* The top-10 most required education in real job postings in the dataset
