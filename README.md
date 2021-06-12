@@ -1,4 +1,4 @@
-# Simple Machine Learning for Fraud Detection
+# Fraud Detection
 Fraudulent job advertising analysis and detection using Spark, PySpark and Python Machine Learning.
 
 For all the experiments, we used the [[Real or Fake] : Fake Job Description Prediction](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) dataset.
