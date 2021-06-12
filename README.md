@@ -37,7 +37,7 @@ The dataset must be present in some directory in the file system.
 
 While in the Spark shell, use the following commands to execute the scala script.
 ```console
-:load /absolute/path/to/your/file/SimpleStatistics.scala
+:load /absolute/path/to/the/script/SimpleStatistics.scala
 SimpleStatistics.main(Array("/absolute/path/to/the/dataset/fake_job_postings.csv"))
 ```
 
