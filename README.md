@@ -3,7 +3,7 @@ Fraudulent job advertising analysis and detection using Spark, PySpark and Pytho
 
 For all the experiments, we used the [[Real or Fake] : Fake Job Description Prediction](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) dataset.
 
-## Part 1: Simple statistics and knowledge extraction using Spark / Scala
+## [Part 1: Simple statistics and knowledge extraction using Spark / Scala](#part1)
 
 ### Software setup instructions
 
@@ -33,7 +33,7 @@ For all the experiments, we used the [[Real or Fake] : Fake Job Description Pred
 
 ### Script execution
 
-The dataset must be present in some directory in the file system.
+**Note:** The dataset must be present in some directory in the file system.
 
 While in the Spark shell, use the following commands to execute the scala script.
 ```console
@@ -47,3 +47,25 @@ The output of the script contains:
 * The number of real job postings in the dataset
 * The top-10 most required education in fake job postings in the dataset
 * The top-10 most required education in real job postings in the dataset
+
+## [Part 2: Data analysis using PySpark](#part2)
+
+### Software setup instructions
+
+1. Follow all the software setup steps from [Part 1](#part1)
+2. Add PySpark's binaries to PATH and other configurations to .bashrc
+    ```console
+    export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
+    export PYSPARK_DRIVER_PYTHON="jupyter"
+    export PYSPARK_DRIVER_PYTHON_OPTS="notebook"
+    export PYSPARK_PYTHON=python3
+    source ~/.bashrc
+    ```
+
+### Script execution
+
+**Note:** The dataset must be present in some directory in the file system.
+
+To execute the script, launch a Jupyter server and load the notebook.
+
+Make sure you adjust the path to the script in cell No. 3.
