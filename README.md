@@ -68,4 +68,4 @@ The output of the script contains:
 
 To execute the script, launch a Jupyter server and load the notebook.
 
-Make sure you adjust the path to the script in cell No. 3.
+Make sure you adjust the path to the dataset in cell No. 3.
