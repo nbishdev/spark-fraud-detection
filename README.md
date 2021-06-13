@@ -3,7 +3,7 @@ Fraudulent job advertising analysis and detection using Spark, PySpark and Pytho
 
 For all the experiments, we used the [[Real or Fake] : Fake Job Description Prediction](https://www.kaggle.com/shivamb/real-or-fake-fake-jobposting-prediction) dataset.
 
-## [Part 1: Simple statistics and knowledge extraction using Spark / Scala](#part1)
+## Part 1: Simple statistics and knowledge extraction using Spark / Scala
 
 ### Software setup instructions
 
@@ -48,11 +48,11 @@ The output of the script contains:
 * The top-10 most required education in fake job postings in the dataset
 * The top-10 most required education in real job postings in the dataset
 
-## [Part 2: Data analysis using PySpark](#part2)
+## Part 2: Data analysis using PySpark
 
 ### Software setup instructions
 
-1. Follow all the software setup steps from [Part 1](#part1)
+1. Follow all the software setup steps from Part 1
 2. Add PySpark's binaries to PATH and other configurations to .bashrc
     ```console
     export PYTHONPATH=$SPARK_HOME/python:$PYTHONPATH
