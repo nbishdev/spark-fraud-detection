@@ -1,7 +1,11 @@
 python==3.6
 jupyterlab
 findspark
+matplotlib
+nltk
+numpy
 pyspark
 py4j
-matplotlib
 seaborn
+scikit-learn
+tensorflow
