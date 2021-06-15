@@ -61,6 +61,7 @@ The output of the script contains:
     export PYSPARK_PYTHON=python3
     source ~/.bashrc
     ```
+3. Install requirements
 
 ### Script execution
 
@@ -69,3 +70,10 @@ The output of the script contains:
 To execute the script, launch a Jupyter server and load the notebook.
 
 Make sure you adjust the path to the dataset in cell No. 3.
+
+The notebook performs the following operations:
+* Outputs the mean value, median value and standard deviation of the minimum and maximum salary in fake and real job postings
+* Outputs boxplots and distplots of the minimum and maximum salaries
+* Performs outlier detection using the 1.5 x IQR rule
+* Removes outliers combining the aforementioned rule with custom bounds based on research
+* Outputs bi-grams and tri-grams (words) in fake and real jon postings' description
