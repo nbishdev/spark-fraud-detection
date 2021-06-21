@@ -8,7 +8,7 @@ For all the experiments, we used the [[Real or Fake] : Fake Job Description Pred
 ### Software setup instructions
 
 1. Choose the desired version of Apache Spark from [here](https://spark.apache.org/downloads.html)
-    For this experimentation we used Spark v2.4.5 pre-built for Apache Hadoop 2.7
+    For this experimentation we used Spark v2.4.5 pre-built for Apache Hadoop 2.7<br>
     **Note:** This Spark version is only compatible with Java version 8
 2. Download the chosen Apache Spark version and extract it to home directory
     ```console
