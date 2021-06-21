@@ -77,3 +77,30 @@ The notebook performs the following operations:
 * Performs outlier detection using the 1.5 x IQR rule
 * Removes outliers combining the aforementioned rule with custom bounds based on research
 * Outputs bi-grams and tri-grams (words) in fake and real jon postings' description
+
+## Part 3: Machine Learning using Python
+
+### Software setup instructions
+
+1. Follow all the software setup steps from Part 1
+2. Install requirements
+
+### Script execution
+
+**Note:** The dataset must be present in some directory in the file system.
+
+To execute the script, launch a Jupyter server and load the notebook.
+
+Make sure you adjust the path to the dataset in cell No. 3.
+
+The notebook performs Machine Learning using the following algorithms:
+1. Gaussian Naive Bayes
+2. Nearest Centroid
+3. Preceptron
+4. Decision Trees
+5. Decision Trees with Bagging through BaggingClassifier
+6. Decision Trees with Boosting through AdaBoost-SAME classifier
+7. Stochastic Gradient Descent
+8. Stochastic Gradient Descent with Bagging through BaggingClassifier
+9. Stochastic Gradient Descent with Boosting through AdaBoost-SAME classifier
+10. A custom simple sequential deep learning model
